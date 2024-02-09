@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: vianova_geoserver_proxy
+Bundle-Name: vianova_geoserver_proxy
+Bundle-Version: 1.0.0
+Bundle-Vendor: Q-Free Norge AS
+Bundle-Description: Proxy server that read VMS objects in JSON format 
+ from vianova geoserver and simplifies it.
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.qfree.its.vianova_geoserver.proxy.Activator
+Import-Package: org.osgi.framework, com.google.gson, javax.servlet.htt
+ p, org.cvis.service.webrequest, org.osgi.service.event, org.osgi.util
+ .tracker, javax.servlet, org.osgi.service.http
+
